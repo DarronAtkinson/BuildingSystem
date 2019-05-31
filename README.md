@@ -1,6 +1,6 @@
 # BuildingSystem
 
-Core scripts used in an in-game building system I am working on. </br>
+Core scripts used for an in-game building system I am working on. </br>
 </br>
 Very much a work in progress.</br>
 </br>
