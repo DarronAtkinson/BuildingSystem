@@ -15,12 +15,13 @@ A structure is an in game representation of a building element. e.g foundation, 
 A structure must have support at it's required support points or else it will collapse.
 
 ### Structure Preview
-A structure preview also a structure to be visualised and positioned in the world.</br>
-A structure can only be placed if the supports it requires are present in the world.
+A structure preview is a visualisation of structure to be positioned in the world.</br>
+A structure preview can only be placed if the supports it requires are present in the world.
 
 ### Support
 A support maintains a heap of structures and the support value they provide at that position</br>
-The registered structures are alerted to any changes made to the support value and react accordingly
+The support value at the top of the heap will be the greatest value.</br>
+The registered structures are alerted to any changes made to the support value and react accordingly.
 
 ### Build Manager
 A build manager maintains an octree of all the supports created by a player.</br>
